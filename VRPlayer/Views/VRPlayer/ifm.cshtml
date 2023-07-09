@@ -1,0 +1,38 @@
+﻿@{
+	Layout = null;
+	ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>VR播放器小屏测试</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+	<style>
+		html {
+			height: 100%;
+		}
+
+		body {
+			height: 100%;
+			overflow: hidden;
+			margin: 0;
+			padding: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			color: #FFFFFF;
+			background-color: #000000;
+		}
+	</style>
+</head>
+
+<body>
+   <iframe src="~/VrPlayer" style="width:100vw; height:59vw;"></iframe>
+</body>
+</html>
